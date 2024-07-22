@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.10/dist/tailwind.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="contacto.css"/>
+</head>
+<body>
+    <body>  
+        <header class="container-fluid bg-dark text-white py-3">
+            <div class="row">
+              <div class="col-md-6">
+                <a href="index.html" class="text-white">
+                  <h1>Tienda en línea</h1>
+                </a>
+              </div>
+              <div class="col-md-6 text-right">
+                <form class="form-inline">
+                  <input
+                    type="search"
+                    class="form-control mr-sm-2"
+                    id="searchInput"
+                    placeholder="Buscar producto"
+                  />
+                  <button type="submit" class="btn btn-outline-light">Buscar</button>
+                </form>
+                <a href="contact.html" class="text-white ml-2">Contactos</a>
+              </div>
+            </div>
+          </header>
+        <div>
+            <link rel="stylesheet" href="styles/estilo.css">
+            <section class="container">
+                <div class="captionss">
+                    <h1><em>¡CUÉNTANOS! EN ¿QUÉ </em>PODEMOS AYUDARTE?</h1>
+                    <p class="fn">Estamos aquí para ti en cada paso del camino.
+                        No dudes en compartir con nosotros
+                        cualquier
+                        pregunta, inquietud o necesidad que tengas. Nuestro
+                        compromiso es ofrecerte el mejor apoyo
+                        posible, así que cuéntanos en qué podemos ayudarte y
+                        trabajaremos juntos para encontrar la
+                        solución perfecta para ti.</p>
+                </div>
+                <form action="enviar.php" method="post">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" class="form-control" id="asunto" name="asunto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <div class="env">
+                        <button type="submit" class="btn btn-primary">Enviar
+                            Mensaje</button>
+                    </div>
+                </form><div class="captionss">
+                    <h1>¡Visítanos!, estamos <em>ubicados en</em></h1>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d997.4439357007011!2d-78.55040973037305!3d-0.26469865889264954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMTUnNTIuOSJTIDc4wrAzMic1OS4yIlc!5e0!3m2!1ses-419!2sec!4v1709441805535!5m2!1ses-419!2sec"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="captionss">
+                    <h1><em>¿Quieres trabajar</em> con nosotros?</h1>
+                    <p class="fn">¿Te gustaría embarcarte en una emocionante
+                        travesía junto a nuestro equipo, donde tus
+                        habilidades y pasiones se fusionen con nuestra misión y
+                        visión, creando juntos un futuro
+                        brillante y lleno de oportunidades de crecimiento
+                        personal y profesional? Esta es tu única
+                        oportunidad.</p>
+                    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjIueSJ5bqHAxX0TjABHdJ8CVYQFnoECBIQAQ&url=https%3A%2F%2Fitsqmet.edu.ec%2F&usg=AOvVaw3HqlGffu7f-3iOjh1nbST1&opi=89978449" target="_blank"><img
+                            src="https://www.contactocanada.com/wp-content/uploads/2019/12/click-aqui-gif-animado.gif"
+                            style="text-align: center;"></a>
+                </div>
+                <p>Visítanos en:</p>
+                <p>Dirección: La tola</p>
+                <p>Teléfono: 099999999</p>
+                <p>Correo Electrónico: daav@gmail.com</p>
+                <p>Síguenos en nuestras redes sociales:</p>
+                <a href="https://www.facebook.com/escuelaidiomasxyz"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"
+                        width="30"></a>
+                |<a href="https://twitter.com/escuelaidiomas"><img
+                        src="https://cdn-icons-png.flaticon.com/512/3938/3938028.png" width="30"></a>
+                |<a href="https://www.instagram.com/escuelaidiomasxyz"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+                        width="30"></a>
+            </section>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,163 @@
+/* Estilos generales */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bosstrad", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #551010;
+}
+
+h1 {
+  font-size: 4rem;
+  letter-spacing: 2px;
+  border: solid 3px #fff;
+  border-radius: 25px;
+  padding: 2rem 3rem;
+  text-align: center;
+  color: #fff;
+}
+
+h1 em {
+  font-style: italic;
+  color: #fff;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la sección de contacto */
+
+.captionss {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.captionss h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.captionss p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.env {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: aqua;
+  color: #0a141d;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0a141d;
+  color: #fff;
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.work-with-us {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.work-with-us h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.work-with-us p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.work-with-us a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.work-with-us img {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.info-contact {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.info-contact p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.info-contact a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.info-contact img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+/* Estilos para el pie de página */
+
+footer {
+  background-color: #0a141d;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+footer p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.carousel-item img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+}

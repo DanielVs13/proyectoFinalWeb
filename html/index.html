@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda en línea</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    
+    <header class="container-fluid bg-dark text-white py-3">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Tienda en línea</h1>
+          <a href="contact.html" class="text-white ml-2">Contactos</a>
+        </div>
+        <div class="col-md-6 text-right">
+          <form class="form-inline">
+            <input
+              type="search"
+              class="form-control mr-sm-2"
+              id="searchInput"
+              placeholder="Buscar producto"
+            />
+            <button type="submit" class="btn btn-outline-light">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main class="container mt-5">
+      <section class="row">
+        <div class="col-md-3">
+          <h2>Categorías</h2>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#">Ropa</a></li>
+            <li class="list-group-item"><a href="#">Electrónica</a></li>
+            <li class="list-group-item"><a href="#">Hogar</a></li>
+            <li class="list-group-item"><a href="#">Juguetes</a></li>
+          </ul>
+        </div>
+        <div class="col-md-9">
+          <h2>Productos destacados</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-3 product-card">
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    Puma LDU Oficial 2024
+                  </h5>
+                  <img src="  " alt="dest1" />
+                  <p class="card-text product-card-description">
+                    La camiseta Puma LDU Oficial es parte de la indumentaria del
+                    Albo para la temporada 2024.
+                  </p>
+                  <p class="card-text product-card-price">$ 61.50</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 product-card">
+                <img src="..." class="card-img-top" alt="Producto 2" />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">Producto 2</h5>
+                  <p class="card-text product-card-description">
+                    Descripción del producto 2.
+                  </p>
+                  <p class="card-text product-card-price">$29.99</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 product-card">
+                <img src="..." class="card-img-top" alt="Producto 3" />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">Producto 3</h5>
+                  <p class="card-text product-card-description">
+                    Descripción del producto 3.
+                  </p>
+                  <p class="card-text product-card-price">$39.99</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section>
+      <section>
+        <div>
+          <div class="cart-container">
+            <h2>Carrito de compras</h2>
+            <ul class="cart-list"></ul>
+            <p class="cart-total">Total: $0.00</p>
+            <button class="btn btn-primary checkout">Realizar pedido</button>
+          </div>
+        </div>
+      </section>
+      <section class="categoriexs">
+        <h2>Categorías</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <h3>Ropa</h3>
+            <div class="category-products">
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/ropa1.jpg"
+                  class="card-img-top"
+                  alt="Producto 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    Marathon Camiseta Alterna 1 Copa América FEF 24
+                  </h5>
+                  <p class="card-text product-card-description">
+                    La Marathon Camiseta Alterna 1 Copa América FEF 24 es
+                    elegante, una camiseta especial para nuestra tricolor,
+                    sobria y con alma. Un color clásico para conmemorar a
+                    esteequipo que juega, que pelea, que sueña en grande.
+                  </p>
+                  <p class="card-text product-card-price">$69.99</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/ropa2.jpg"
+                  class="card-img-top"
+                  alt="Producto 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    adidas Advantage
+                  </h5>
+                  <p class="card-text product-card-description">
+                    Los zapatos urbanos, adidas Advantage, para hombres tienen
+                    una capellada sintética que añade unas perforaciones que
+                    facilitan la transpirabilidad de sus pies y un ajuste seguro
+                    y preciso a lo largo del día.
+                  </p>
+                  <p class="card-text product-card-price">$114.99</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/ropa3.jpg"
+                  class="card-img-top"
+                  alt="Producto 3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    adidas Tiro League
+                  </h5>
+                  <p class="card-text product-card-description">
+                    Demuestra tu pasión por el deporte rey. Esta gorra adidas
+                    Tiro League luce el logotipo de las 3 bandas bordado sobre
+                    la visera curvada. El cierre regulable en la nuca te
+                    garantiza un ajuste a medida. Lacinta interior acolchada
+                    evita las distracciones.
+                  </p>
+                  <p class="card-text product-card-price">$30.99</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/ropa5.jpg"
+                  class="card-img-top"
+                  alt="Producto 4"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    adidas Predator 24 Club Sock versátil
+                  </h5>
+                  <p class="card-text product-card-description">
+                    La victoria se gesta gol a gol. Esta bota de fútbol se ha
+                    diseñado para que siempre llegues a la portería rival, y lo
+                    más importante: para que nunca falles. Alcanza la perfección
+                    con la nueva adidas Predator.
+                  </p>
+                  <p class="card-text product-card-price">$105.66</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h3>Electrónica</h3>
+            <div class="category-products">
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/elect1.png"
+                  class="card-img-top"
+                  alt="Producto1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    ZITRO PRO 32" ANDROID TV 32 FRAMELESS
+                  </h5>
+                  <p class="card-text product-card-description">
+                    Sistema Operativo: LINUX. Con licencia NETFLIX, YOUTUBE y
+                    PRIME VIDEO. Accesos directos: desde el control remoto.
+                    Conexión Bluetooth. Conexión WIFI: Integrado. Pantalla LED
+                    de 32, aspecto 16:9, resolución 3840x2160. Audio: Dolby
+                    Audio. Smart TV. Puertos: 3x HDMI; 2x USB 2.0.
+                  </p>
+                  <p class="card-text product-card-price">$175.00</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/elect3.webp"
+                  class="card-img-top"
+                  alt="Producto electrónica 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    TV LG NANO CELL 55NANO75 LCD 6.0 4K
+                  </h5>
+                  <p class="card-text product-card-description">
+                    LG ThinQ está para maximizar tu experiencia con el
+                    televisor. Elige tu asistente de voz favorito y controla tu
+                    televisor con tu voz, con una pantalla de inicio totalmente
+                    nueva para ofrecer más comodidad y control. El televisor LG
+                    NanoCell utiliza nanopartículas, propia tecnología de LG
+                    Nano distintiva, para filtrar y refinar el color, eliminando
+                    las impurezas de las longitudes de onda RGB. Esto significa
+                    que sólo se mostrarán en pantalla colores puros y precisos.
+                    El resultado es una imagen más vibrante y realista que dará
+                    vida a tu contenido.
+                  </p>
+                  <p class="card-text product-card-price">$657.99</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/elect4.png"
+                  class="card-img-top"
+                  alt="Producto electrónica 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    Freidora de Aire ONE 4.5L 1500W
+                  </h5>
+                  <p class="card-text product-card-description">
+                    IMAGEN REFERENCIAL TTAF-350A TIPO DE CESTA 120V/60HZ/1450W
+                    Control de temperatura: 80 ℃ -200 ℃ Tiempo de Trabajo: 0-60
+                    minutos
+                  </p>
+                  <p class="card-text product-card-price">$64.99</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h3>Hogar</h3>
+            <div class="category-products">
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/hog1.png"
+                  class="card-img-top"
+                  alt="Producto hogar 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    Protector de Voltaje 12A
+                  </h5>
+                  <p class="card-text product-card-description">
+                    Equipos profesionales especialmente diseñados para proteger
+                    refrigeradores y congeladores. Protección contra apagones,
+                    Alta y Baja tensión. Tiempo de retardo de conexión de 3
+                    minutos. Indicadores: luminosos para voltaje normal, alto,
+                    bajo y retardo de tiempo.
+                  </p>
+                  <p class="card-text product-card-price">$8,35</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/hog2.png"
+                  class="card-img-top"
+                  alt="Producto hogar 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    Set de Cargador y Pilas AAA
+                  </h5>
+                  <p class="card-text product-card-description">
+                    Set de Cargador y Pilas AAA
+                  </p>
+                  <p class="card-text product-card-price">$29.99</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/hog4.png"
+                  class="card-img-top"
+                  alt="Producto hogar 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    AIRE ACONDICIONADO TCL 12000 BTU ALTA EFICIENCIA
+                  </h5>
+                  <p class="card-text product-card-description">
+                    Capacidad 12.000 BTU. Voltaje / Frecuencia 220V/60Hz. Gas
+                    refrigerante R410. Reinicio automático. Sistema de flujo de
+                    aire silencioso. Timer programable de auto apagado.
+                    Ecológico de alta eficiencia energética. Ahorra el 35% de
+                    energía. Sistema Purificador de Aire. Filtro Anti bacterias.
+                  </p>
+                  <p class="card-text product-card-price">$271.99</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h3>Juguetes</h3>
+            <div class="category-products">
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/jug1.png"
+                  class="card-img-top"
+                  alt="Producto juguete 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    Pista de Carro con Lanzador 1 Carro
+                  </h5>
+                  <p class="card-text product-card-description">
+                    Pista de Carro con Lanzador 1 Carro
+                  </p>
+                  <p class="card-text product-card-price">$9.99</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/jug2.png"
+                  class="card-img-top"
+                  alt="Producto juguete 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    Carro Stunt Car con Luz, Batería Interna y USB
+                  </h5>
+                  <p class="card-text product-card-description">
+                    Carro de acrobacias
+                  </p>
+                  <p class="card-text product-card-price">$29.99</p>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+              <div class="card mb-3 product-card">
+                <img
+                  src="/image/jug3.png"
+                  class="card-img-top"
+                  alt="Producto juguete 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title product-card-title">
+                    Carro CR 4 funciones y luz Capitán América
+                  </h5>
+                  <p class="card-text product-card-description">
+                    Carro CR 4 funciones y luz Capitán América
+                  </p>
+                  <p class="card-text product-card-price">$29.99</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                  <button class="btn btn-success add-to-cart">
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              
+            </div>
+          </div>
+          <footer class="container-fluid bg-dark text-white py-3 mt-5">
+            <div class="row">
+              <div class="col-md-6">
+                <p>&copy; Daniel Arias</p>
+              </div>
+              <div class="col-md-6 text-right">
+                <a href="#" class="text-white">Términos y condiciones</a>
+                <span class="mx-2">|</span>
+                <a href="#" class="text-white">Política de privacidad</a>
+              </div>
+            </div>
+          </footer>
+
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+          ></script>
+
+          <script>
+            const cartContainer = document.querySelector(".cart-container");
+            const cartList = document.querySelector(".cart-list");
+            const cartTotal = document.querySelector(".cart-total");
+            const checkoutButton = document.querySelector(".checkout");
+
+            let cart = [];
+
+            const searchInput = document.getElementById("searchInput");
+            searchInput.addEventListener("input", function () {
+              const searchTerm = this.value.toLowerCase();
+              filterProducts(searchTerm);
+            });
+
+            function filterProducts(searchTerm) {
+              const productList = document.querySelectorAll(".product-card");
+
+              productList.forEach((product) => {
+                const productName = product
+                  .querySelector(".product-card-title")
+                  .textContent.toLowerCase();
+                const productDescription = product
+                  .querySelector(".product-card-description")
+                  .textContent.toLowerCase();
+
+                if (
+                  productName.includes(searchTerm) ||
+                  productDescription.includes(searchTerm)
+                ) {
+                  product.style.display = "block";
+                } else {
+                  product.style.display = "none";
+                }
+              });
+            }
+
+            document.querySelectorAll(".add-to-cart").forEach((button) => {
+              button.addEventListener("click", (e) => {
+                const productCard = e.target.closest(".product-card");
+                const productName = productCard.querySelector(
+                  ".product-card-title"
+                ).textContent;
+                const productPrice = parseFloat(
+                  productCard
+                    .querySelector(".product-card-price")
+                    .textContent.replace("$", "")
+                );
+                const product = {
+                  name: productName,
+                  price: productPrice,
+                };
+
+                cart.push(product);
+                updateCart();
+              });
+            });
+
+            function updateCart() {
+              cartList.innerHTML = "";
+              cart.forEach((product) => {
+                const cartItem = document.createElement("li");
+                cartItem.textContent = `${
+                  product.name
+                } - $${product.price.toFixed(2)}`;
+                cartList.appendChild(cartItem);
+              });
+
+              const total = cart.reduce(
+                (acc, product) => acc + product.price,
+                0
+              );
+              cartTotal.textContent = `Total: $${total.toFixed(2)}`;
+            }
+
+            checkoutButton.addEventListener("click", () => {
+              alert("Pedido realizado con éxito!");
+              cart = [];
+              updateCart();
+            });
+          </script>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
